@@ -1,0 +1,92 @@
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+/*layout*/
+html {
+	background-image:url('film-icon.png');
+	background-size: auto 768px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	margin-top: 90px;
+}
+body {
+	color: red;
+}
+#title-container {
+	margin-top: -100px;
+	margin-bottom: 135px;
+}
+h1 {
+	font-size: 50px;
+	text-align:center;	
+}
+h2 {
+	font-size: 18px;
+	margin-top: -20px;
+	text-align:center;
+	font-style: italic;
+	color: gray;	
+}
+#question_wrapper {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	font-family: sans-serif;
+	font-size: 25px;
+	padding-top: 200px;
+	color: gray;
+}
+#answer_holder {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+	line-height: 35px;
+}
+.answer {
+	margin-left: 8px;
+}
+#button_holder {
+	margin-left: 50px;
+}
+#submit {
+	font-size: 18px;
+	margin-top: 40px;
+	border-radius: 25px;
+	margin-left: 76px;
+	background-color: green;
+}
+#retry_button{
+	font-size: 18px;
+	margin-top: 20px;
+	border-radius: 25px;
+	display: none;
+}
+
+#question_score {
+	display: inline-block;
+}
+
+#fact_holder {
+	display: inline-block;
+	font-family: 'CoffeeHouse';
+	font-size: 30px;
+	text-align:center;
+	color: #360000;
+	width: 450px;
+	vertical-align:top;
+	margin-left: 30px;
+	margin-top: 70px;
+}
+

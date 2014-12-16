@@ -1,0 +1,36 @@
+
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Film Buff Quiz</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<div id="title-container">
+			<h1>Film Buff Quiz</h1>
+			<h2>Test your movie knowledge!</h2>
+		</div>
+		<div id="question_wrapper">
+			<span class="question">1. Who directed the 1977 science fiction film Close Encounters of the Third Kind ?</span><br>
+			<div id="answer_holder">
+				<input type="radio" name="option" class="option" value="0"><span class="answer">George Lucas</span><br>
+				<input type="radio" name="option" class="option" value="1"><span class="answer">Stephen Spielberg </span><br>
+				<input type="radio" name="option" class="option" value="2"><span class="answer">Christopher Nolan</span><br>
+			</div>
+			<div id="button_holder">
+				<input type="button" id="submit" value="Submit Answer"><span id="hint"></span>
+				<input type="button" id="retry_button" value="Try Again!">
+			</div>
+
+		</div>
+	</body>
+			<div id="fact_holder">
+				<span id="last_question_fact">
+				</span>
+			</div>
+		</div>
+	</div>
+</html>
