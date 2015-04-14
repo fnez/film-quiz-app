@@ -59,7 +59,7 @@ h2 {
 }
 #button_holder {
 	margin-left: 50px;
-}
+} 
 #submit {
 	font-size: 18px;
 	margin-top: 40px;
@@ -69,8 +69,10 @@ h2 {
 }
 #retry_button{
 	font-size: 18px;
-	margin-top: 20px;
+	margin-top: 40px;
 	border-radius: 25px;
+	margin-left: 76px;
+	background-color: gray;
 	display: none;
 }
 
